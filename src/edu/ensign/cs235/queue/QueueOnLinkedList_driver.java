@@ -35,6 +35,7 @@ public class QueueOnLinkedList_driver
         assert (queue_ll.dequeue()   == 1);
         assert (queue_ll.peek_front() == 2);
         assert (queue_ll.peek_rear()  == 10);
+        queue_ll.dequeue();
 
         System.out.println("\nAfter queue operations:");
         System.out.println(queue_ll);
